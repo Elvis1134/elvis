@@ -49,7 +49,12 @@
         <button onclick="login()">Login</button>
         <p id="message" style="color: red;"></p>
     </div>
-
+// font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
     <script>
         function login() {
             var username = document.getElementById("username").value;
